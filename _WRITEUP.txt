@@ -1,0 +1,6 @@
+
+Bugs / Incomplete:
+  My program doesn't allow a process to use the timeout feature, as well as the background feature.
+    They somewhat work, but if you run another command while the background process is running, it won't timeout anymore.
+    The background feature will override.
+  My program is whitespace-sensitive for the control characters. Couldn't easily get it to work with other features otherwise.
